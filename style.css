@@ -7,15 +7,17 @@
 body {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+    min-height: 100vh;
 }
 
 #hero {
     width: 626px;
     height: 486px;
-    margin: 64px auto;
+    margin: 0 auto 64px;
+    padding-top: 58px;
 }
 
-img {
+#hero img {
     margin-bottom: 32px;
 }
 
@@ -49,10 +51,6 @@ p span {
     margin: 0px auto 16px;
 }
 
-#links {
-    margin-bottom: 40px;
-}
-
 #links a {
     text-decoration: none;
     color: #3F3D56;
@@ -61,9 +59,14 @@ p span {
 }
 
 #footer {
+    align-self: flex-end;
     width: 100%;
 }
 
 #footer a+a{
     margin-left: 42px;
+}
+
+#wave {
+    width: 100%;
 }
